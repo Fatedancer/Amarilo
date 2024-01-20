@@ -14,8 +14,8 @@ const Tab = ({ label, onClick, value, selected }: TabProps) => {
       className={cn(
         'w-full h-14 p-4 rounded-t-lg font-regular text-body-s text-center truncate text-ellipsis transition duration-100 flex justify-center items-center',
         {
-          'bg-primary text-secondary border-b-4 border-tertiary': selected,
-          'bg-primary text-black': !selected,
+          'bg-yellow-pastel text-blue-persa border-b-2 border-yellow': selected,
+          'bg-yellow-pastel text-black': !selected,
           'hover:bg-secondary-pastel active:bg-blue-persa-pastel active:text-primary cursor-pointer': !selected,
         }
       )}

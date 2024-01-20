@@ -1,31 +1,22 @@
-# React + TypeScript + Vite
+# Prueba Técnica Amarilo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una landing page creada como parte de la prueba técnica para Amarilo. Se ha construido utilizando React, Tailwind CSS y los web components de Shadow.
 
-Currently, two official plugins are available:
+## Tecnologías
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [React](https://reactjs.org/): Una biblioteca JavaScript para construir interfaces de usuario.
+- [Tailwind CSS](https://tailwindcss.com/): Un framework de CSS de utilidad primero para la creación rápida de diseños personalizados.
+- [Shadow](https://www.webcomponents.org/element/@open-wc/shadow): Un conjunto de web components.
 
-## Expanding the ESLint configuration
+## Cómo correr el proyecto localmente
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. Clona el repositorio en tu máquina local utilizando `git clone {url_del_repositorio}`.
 
-- Configure the top-level `parserOptions` property like this:
+2. Navega hasta el directorio del proyecto con `cd {nombre_del_directorio}`.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+3. Instala las dependencias del proyecto con `npm install`.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
-# Amarilo
+4. Inicia el servidor de desarrollo con `npm run dev`.
+
+5. Abre tu navegador y navega a `http://localhost:5174` para ver el proyecto en acción.
+

@@ -42,65 +42,39 @@ const App = () => {
             ))}
           </div>
           <div className="col-span-4 flex gap-4 px-6 mt-6 bg-secondary">
-              <div className="flex flex-row justify-between w-full p-6 ">
-                <div>
-                  <article>
-                    <a href="https://www.fotocasa.es/es/vivir-en-espana"  title="Guía de barrios">
-                      <span >
-                        <img alt="Guía de barrios" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_neightborhood_guide_icon.svg" title="Guía de barrios" width="32"/>
-                      </span>
-                      <span >Guía de barrios</span>
-                    </a>
-                  </article>
-                </div>
-                <div>
-                  <article>
-                    <a href="/es/tasacion-online/" title="Valora tu casa">
-                      <span >
-                        <img alt="Valora tu casa"  height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_value_home_icon.svg" title="Valora tu casa" width="32"/>
-                      </span>
-                      <span >Valora tu casa</span>
-                    </a>
-                  </article>
-                </div>
-                <div>
-                  <article>
-                    <a href="https://hipotecas.fotocasa.es/" rel="" title="Calcula tu hipoteca">
-                      <span>
-                        <img alt="Calcula tu hipoteca" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_calculate_fee_icon.svg" title="Calcula tu hipoteca" width="32"/>
-                      </span>
-                      <span>
-                        Calcula tu hipoteca
-                      </span>
-                    </a>
-                  </article>
-                </div>
-                <div>
-                  <article>
-                    <a href="https://seguros.fotocasa.es/?utm_source=fotocasa&amp;utm_campaign=entrypoint&amp;utm_medium=home_processes" title="Asegura tu hogar">
-                      <span>
-                        <img alt="Asegura tu hogar" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_protect_home_icon.svg" title="Asegura tu hogar" width="32"/>
-                      </span>
-                      <span>
-                        Asegura tu hogar
-                      </span>
-                    </a>
-                  </article>
-                </div>
-                <div>
-                  <article>
-                    <a href="/es/vende-con-agencia/" rel="" title="Vende con agencia">
-                      <span>
-                        <img alt="Vende con agencia" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_sell_with_agency_icon.svg" title="Vende con agencia" width="32"/>
-                      </span>
-                      <span>
-                       Vende con agencia
-                      </span>
-                    </a>
-                  </article>
-                </div>
-              </div>
+            <div className="flex flex-row justify-between w-full p-6 ">
+              <article className="items-center flex justify-center bg-electric-blue-pastel p-3 rounded-lg">
+                <a href="https://www.fotocasa.es/es/vivir-en-espana" title="Guía de barrios">
+                  <img alt="Guía de barrios" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_neightborhood_guide_icon.svg" title="Guía de barrios" width="32" className="mx-auto" />
+                  Guía de barrios
+                </a>
+              </article>
+              <article className="items-center flex justify-center bg-electric-blue-pastel p-3 rounded-lg">
+                <a href="/es/tasacion-online/" title="Valora tu casa">
+                  <img alt="Valora tu casa" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_value_home_icon.svg" title="Valora tu casa" width="32" className="mx-auto" />
+                  Valora tu casa
+                </a>
+              </article>
+              <article className="items-center flex justify-center bg-electric-blue-pastel p-3 rounded-lg">
+                <a href="https://hipotecas.fotocasa.es/" rel="" title="Calcula tu hipoteca">
+                  <img alt="Calcula tu hipoteca" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_calculate_fee_icon.svg" title="Calcula tu hipoteca" width="32"  className="mx-auto"/>
+                  Calcula tu hipoteca
+                </a>
+              </article>
+              <article className="items-center flex justify-center bg-electric-blue-pastel p-3 rounded-lg">
+                <a href="https://seguros.fotocasa.es/?utm_source=fotocasa&amp;utm_campaign=entrypoint&amp;utm_medium=home_processes" title="Asegura tu hogar">
+                  <img alt="Asegura tu hogar" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_protect_home_icon.svg" title="Asegura tu hogar" width="32" className="mx-auto" />
+                  Asegura tu hogar
+                </a>
+              </article>
+              <article className="items-center flex justify-center bg-electric-blue-pastel p-3 rounded-lg">
+                <a href="/es/vende-con-agencia/" rel="" title="Vende con agencia">
+                  <img alt="Vende con agencia" height="32" src="https://frtassets.fotocasa.es/statics/img/home_services_sell_with_agency_icon.svg" title="Vende con agencia" width="32" className="mx-auto" />
+                  Vende con agencia
+                </a>
+              </article>
             </div>
+          </div>
         </div>
       </body>
 

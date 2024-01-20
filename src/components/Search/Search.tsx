@@ -11,7 +11,7 @@ const Search = () => {
 
     return (
         <div className="h-96 flex items-center justify-center">
-            <div className='w-full bg-primary p-6 text-body-m justify-center font-regular rounded-lg gap-3 space-y-3'>
+            <div className='w-full bg-secondary p-6 text-body-m justify-center font-regular rounded-lg gap-3 space-y-3'>
                 <h2 className='text-center text-primary-content'>
                     Descubre nuestras últimas obras y proyectos destacados.
                 </h2>
@@ -24,7 +24,7 @@ const Search = () => {
                 <form>
                     <div className='flex gap-3 w-full'>
                         {value === 'buy' && (
-                            <select title="Seleccione" className='text-secondary'>
+                            <select title="Seleccione">
                                 <option value="2">
                                     Casa
                                 </option>
